@@ -1,10 +1,14 @@
 
-#inicio{
+#inicio {
+    #hola>#id, #hello {
 
-   margin: 14px;
-   border: solid 1px red;
-   padding: 5px;
-   text-decoration: overline;
-   
+      margin: 14px;
+      border: solid 1px red;
+      padding: 5px;
+      text-decoration: overline;
+      
+    }
+
+  
    
 }
