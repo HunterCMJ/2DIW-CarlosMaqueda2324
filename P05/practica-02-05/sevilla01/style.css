@@ -1,0 +1,68 @@
+#primero,
+#segundo,
+#tercero,
+#cuarto {
+
+    display: flex;
+    height: 800px;
+    border: 3px solid green;
+
+}
+
+#primero>div,
+#segundo>div,
+#tercero>div,
+#cuarto>div {
+
+    /*todos los elementos div hijos de []*/
+
+    width: 30%;
+    height: 600px;
+    border: solid 3px yellow;
+}
+
+#primero>#nombre,
+#segundo>#arte {
+
+    flex-grow: 1;
+
+}
+
+#segundo {
+
+    flex-direction: row-reverse;
+}
+
+#tercero{
+
+    align-items: flex-end;
+}
+
+#ciudad {
+    order: 2;
+}
+
+#templos {
+    order: 3;
+}
+
+#palacios {
+    order: 1;
+}
+
+#cuarto{
+
+    align-items: baseline;
+}
+
+#espacios{
+
+    flex-grow: 1;
+    
+}
+
+#algaba{
+    
+    flex-grow: 2;
+    
+}
