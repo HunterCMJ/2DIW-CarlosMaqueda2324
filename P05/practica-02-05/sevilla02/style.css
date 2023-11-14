@@ -1,0 +1,54 @@
+#monumentos>div{
+
+    display: flex;
+    align-items: center;
+    height: 700px;
+    border: solid 3px orange;
+}
+
+#giralda>div, #catedral>div, #detcatedral>div, #retcatedral>div{
+
+    width: 30%;
+    border: solid 3px red;
+   
+
+}
+
+#giralda{
+   
+    align-items: flex-start;
+    justify-content: left;
+    
+}
+#catedral{
+    align-items: center;
+    align-items: flex-end;
+    
+}
+#cate01{
+    flex-shrink:1 ;
+}
+#cate02{
+    flex-shrink: 2;
+}
+#cate03{
+    flex-shrink: 2;
+}
+#cate04{
+    flex-shrink: 1;
+}
+
+#monumentos> #detcatedral {
+   
+    align-items: baseline;
+    justify-content: space-around;
+    
+    
+   
+}
+
+#retcatedral{
+    
+    justify-content: space-around;
+
+}
