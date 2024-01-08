@@ -1,0 +1,57 @@
+#lista{
+
+    border: 1px solid brown;
+    display: flex;
+    align-items: end;
+
+
+}
+#lista>div{
+
+    width: 20%;
+    border: 1px solid red;
+    
+}
+#lista>div:nth-child(2){
+
+    flex-grow: 3;
+}
+#lista>div:nth-child(3){
+
+    flex-grow: 12;
+    
+}
+
+#tomas{
+
+   text-align: center;
+}
+
+.teoria{
+
+    font-family: Century;
+    
+    background: radial-gradient(circle, #c74c7b, #c76c4b, #c7b54b);
+}
+
+div[class*="tia"]{
+
+    font-family: Tahoma;
+    font-size: 12pt;
+    color: #b3695b;
+}
+
+div[class*="empirismo"]{
+
+    font-family: 'Courier New';
+    font-size: 13pt;
+    color: #6abe3e;
+}
+
+img{
+
+    width: 25%;
+}
+
+/*ejercicio3 apartado e */
+

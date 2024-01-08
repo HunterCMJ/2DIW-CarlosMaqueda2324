@@ -1,0 +1,48 @@
+:root{
+
+    background-image: url(../imagenes/filosofo-2.jpg);
+    background-repeat: repeat-y;
+    background-size: 40%;
+    background-position: center;
+
+    font-family: Cambria;
+    font-size: 11pt ;
+    color: #32164e;
+
+   
+}
+ol, ul{
+
+    font-family:Tahoma;
+    font-size: 14pt;
+    color: green;
+    background-color: yellow;
+    line-height: 80%;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: blue underline;
+}
+div [class]{
+
+    width: 400px;
+    height: 200px;
+
+
+
+}
+
+div.c1{
+
+    background: radial-gradient(circle, #f4befc, #fabed6);
+}
+div.c2{
+
+    background: linear-gradient( #9d3bbe, #643bbe);
+
+}
+
+div.c3{
+
+    background: linear-gradient( #9ac9d5, #65b2a4, #6d853e);
+
+}

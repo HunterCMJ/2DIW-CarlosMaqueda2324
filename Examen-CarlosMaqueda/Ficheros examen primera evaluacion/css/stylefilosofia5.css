@@ -1,0 +1,38 @@
+
+div>p::first-line{
+
+
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+
+    
+}
+div>p::first-letter{
+
+    font-size: 3em;
+}
+
+ol:first-of-type{
+
+    background-color: green;
+}
+
+ul:first-of-type{
+
+    background-color: brown;
+}
+
+ol:last-of-type{
+
+    background-color: red;
+}
+
+a{
+    color: #cde120;
+    font-size: 14pt;
+}
+a:visited{
+    color: #da20e1;
+    font-size: 16pt;
+}

@@ -1,8 +1,26 @@
-@media screen {
-        
-}
+@media (width <= 400px) { 
 
-#divisiones{
+
+    #divisiones{
 
     
+    }
+
+}
+
+@media (400px < width < 800px) { 
+
+    
+    #divisiones{
+
+    
+    }
+}
+@media (width > 800 ) { 
+
+    
+    #divisiones{
+
+    
+    }
 }

@@ -1,0 +1,90 @@
+:root {
+
+    background-image: url(../imagenes/filosofo-2.jpg), url(../imagenes/filosofo-4.jpg), url(../imagenes/filosofo-6.jpg), url(../imagenes/filosofo-1.jpg), url(../imagenes/filosofo-3.jpg), url(../imagenes/filosofo-5.jpg);
+
+    background-repeat: no-repeat;
+    background-size: 33% 50%;
+    background-position: top left, top center, top right, bottom left, bottom center, bottom right;
+
+    font-family: Cambria;
+    line-height: 90%;
+
+}
+@media (max-width:600px){
+
+    html{
+     font-size: 8pt;
+     color: #195A19;
+    }
+ 
+ }
+
+@media (min-width:600px) and (max-width:900px){
+
+    html{
+     font-size: 10pt;
+     color: #7B241C;
+    }
+ 
+ }
+
+@media (min-width:901px) and (max-width:1200px) {
+
+    html {
+        font-size: 12pt;
+        color: #FAD7A0;
+    }
+
+}
+
+@media (min-width:1201px) and (max-width:1500px) {
+
+    html {
+        font-size: 14pt;
+        color: #fa8072;
+    }
+
+}
+
+@media (min-width:1500px) {
+
+    html {
+        font-size: 16pt;
+        color: #45B39D;
+    }
+
+}
+
+
+
+h1 {
+
+    font-size: 210%;
+    text-shadow: #07357f -2px 2px;
+}
+
+h2 {
+
+    font-size: 160%;
+}
+
+h3 {
+    font-size: 80%;
+}
+
+h3>div,p{
+
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+div> h3{
+
+    text-decoration: underline dotted brown;
+}
+div > p{
+
+    background-color: #dcd100;
+}

@@ -1,0 +1,39 @@
+:root{
+
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+   padding-left: 13pt;
+   padding-right:8pt ;
+   padding-top: 11pt;
+}
+a{
+    color: #36e120;
+}
+:visited{
+
+    color: #a68e20;
+}
+a:active{
+
+    color: #75e1d8;
+}
+
+div> p{
+
+    font-family: 'comic sans MS';
+    font-size: 14pt;
+    color: #581827;
+
+}
+h3 + ol{
+
+    border:  7px  dotted #581827;
+    background-color: #15e289 ;
+    
+    
+}
+img{
+
+    width: 25%;
+}
